@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedback">
+
+
+
+
+
+
+
+
+
+
+
+<TextView
+android:id="@+id/textView2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="10dp"
+android:gravity="center_horizontal"
+android:text="We hope you enjoyed your meal with us today"
+android:textSize="20sp"
+android:textStyle="italic" />
+
+
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:numStars="5"
+        android:stepSize="1"
+        android:rating="5"
+        />
+
+    <TextView
+        android:id="@+id/tvRatingScale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Awesome. I love it"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/ratingBar"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/tvRatingScale"
+        android:lines="5"
+        android:hint="Tell us what you loved"
+        android:id="@+id/gravity"
+        android:gravity="top"
+        />
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#e57373"
+        android:text="Send feedback"
+        android:layout_below="@+id/gravity"
+        android:textColor="@android:color/white" />
+
+
+
+</RelativeLayout>
+
+

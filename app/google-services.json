@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "815170159131",
+    "firebase_url": "https://restaurant-locator-c6c52.firebaseio.com",
+    "project_id": "restaurant-locator-c6c52",
+    "storage_bucket": "restaurant-locator-c6c52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815170159131:android:85ce4488ce531fffc3aebe",
+        "android_client_info": {
+          "package_name": "com.example.restaurantlocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815170159131-oei36912mjh9hkjov1ppvm70gl2eaiqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.restaurantlocator",
+            "certificate_hash": "897761cd096647bee959d6ee728ccc5ad840efc8"
+          }
+        },
+        {
+          "client_id": "815170159131-ljs1folalspdqipf1un9djobf4moatnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzAbmTxZV_c2ikxt-LfMSOTLyJzy2Excg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815170159131-ljs1folalspdqipf1un9djobf4moatnc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
