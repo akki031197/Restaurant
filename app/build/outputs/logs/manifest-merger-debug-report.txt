@@ -1,0 +1,324 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:2:1-68:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/7791e249a1b812f5bc497936b117f5c8/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/student/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/74947aea835b4e2b414afd36afeabf6c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.firebase:firebase-database:16.0.4] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.4.aar/228d9c0ffe74418cbdbd87c8aef5131b/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-location-17.0.0.aar/225d3da825d4ebbe85417a6db8019b23/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:17:1-47:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/c53e461f50129ba74b857a61cdcce42b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/3d087e50e90b4007aab8e0e2a5cf3ccb/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/19a591e42ef388ee2a6958a4376b9887/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/e7f5022df7cdb080cf648e4153a96532/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/205e394810f8fbbe8313ac4e1e81e681/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-16.0.8.aar/73c7b3600342385d08f6dcfeeb75f667/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/9f024b14574b72fe6b167c7649f5cb41/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03fd9ebec6f9b9d3d91aeb93a349b988/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/72a7aab8e792479cc36a7699324d2dba/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.0.aar/f9e1eb1db5cc7dbbb8d04cc92894a534/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-17.0.0.aar/ca6fc22d1dff9d58d7b590733165cd1f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/b328387687d6d9197e5c68a917d580bc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/8009254fae2a110c0f5d896a97703e38/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/fec009b5027da308c384e2248fb5bac1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/44d66baeaca05b7f981cb64f9253aa1a/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/8b45663870372cccf5627ce5657f195d/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/0dd4a89e77d2c6c075a88888d1d196f8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/f909469fd872e6ce69af32355bd68dd7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/4162c86568fd3395ec62fc1507b15395/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/6d7958155d4b73e293e0709c8af9f0e5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/3995eb459673f3677578326b4e9c5f81/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/a87e0cfda842e9d5fbb034c00621e250/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/588c1d3dea618ccab815c31cc55c867d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/6914e05e915a6b4a57fcd32d1ebe086b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/5774b2c0d10507cd81e7e5d77b3d7a33/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/8a2016e52f59926e53325198cb5f9348/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/74f6ffdb72fdf08b10deb91b084d6c6e/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/65d02fb7a2cd674ef9898ab5b0084016/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/ac7e8848ecfd38744c0e9ef310de9f80/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:2:1-68:12
+INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:2:1-68:12
+	package
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:3:5-44
+		INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:2:1-68:12
+		INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:2:1-68:12
+		INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.4.aar/228d9c0ffe74418cbdbd87c8aef5131b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:16.0.4] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.4.aar/228d9c0ffe74418cbdbd87c8aef5131b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/9f024b14574b72fe6b167c7649f5cb41/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/9f024b14574b72fe6b167c7649f5cb41/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:11:22-78
+application
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:34:5-66:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/student/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/74947aea835b4e2b414afd36afeabf6c/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/student/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/74947aea835b4e2b414afd36afeabf6c/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-location-17.0.0.aar/225d3da825d4ebbe85417a6db8019b23/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-location-17.0.0.aar/225d3da825d4ebbe85417a6db8019b23/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-16.0.8.aar/73c7b3600342385d08f6dcfeeb75f667/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-16.0.8.aar/73c7b3600342385d08f6dcfeeb75f667/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/9f024b14574b72fe6b167c7649f5cb41/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/9f024b14574b72fe6b167c7649f5cb41/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03fd9ebec6f9b9d3d91aeb93a349b988/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03fd9ebec6f9b9d3d91aeb93a349b988/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/72a7aab8e792479cc36a7699324d2dba/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/72a7aab8e792479cc36a7699324d2dba/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-17.0.0.aar/ca6fc22d1dff9d58d7b590733165cd1f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-17.0.0.aar/ca6fc22d1dff9d58d7b590733165cd1f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/b328387687d6d9197e5c68a917d580bc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/b328387687d6d9197e5c68a917d580bc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/8009254fae2a110c0f5d896a97703e38/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/8009254fae2a110c0f5d896a97703e38/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/fec009b5027da308c384e2248fb5bac1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/fec009b5027da308c384e2248fb5bac1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/44d66baeaca05b7f981cb64f9253aa1a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/44d66baeaca05b7f981cb64f9253aa1a/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/8a2016e52f59926e53325198cb5f9348/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/8a2016e52f59926e53325198cb5f9348/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/74f6ffdb72fdf08b10deb91b084d6c6e/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/74f6ffdb72fdf08b10deb91b084d6c6e/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/8a2016e52f59926e53325198cb5f9348/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:39:9-35
+	android:label
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:37:9-41
+	android:roundIcon
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:38:9-54
+	android:icon
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:36:9-43
+	android:allowBackup
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:35:9-35
+	android:theme
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:40:9-40
+activity#com.example.restaurantlocator.Main2Activity
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:41:9-60
+	android:name
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:41:19-48
+activity#com.example.restaurantlocator.feedback
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:42:9-46
+	android:name
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:42:19-43
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:51:9-53:55
+	android:value
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:53:13-52
+	android:name
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:52:13-58
+activity#com.example.restaurantlocator.MapsActivity
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:55:9-57:59
+	android:label
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:57:13-56
+	android:name
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:56:13-41
+activity#com.example.restaurantlocator.AddressLocator
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:58:9-52
+	android:name
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:58:19-49
+activity#com.example.restaurantlocator.MainActivity
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:59:9-65:20
+	android:name
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:59:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:60:13-64:29
+action#android.intent.action.MAIN
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:61:17-69
+	android:name
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:61:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:63:17-77
+	android:name
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml:63:27-74
+uses-sdk
+INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/7791e249a1b812f5bc497936b117f5c8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/7791e249a1b812f5bc497936b117f5c8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/student/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/74947aea835b4e2b414afd36afeabf6c/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/student/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/74947aea835b4e2b414afd36afeabf6c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.4] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.4.aar/228d9c0ffe74418cbdbd87c8aef5131b/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.4] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.4.aar/228d9c0ffe74418cbdbd87c8aef5131b/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-location-17.0.0.aar/225d3da825d4ebbe85417a6db8019b23/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-location-17.0.0.aar/225d3da825d4ebbe85417a6db8019b23/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/c53e461f50129ba74b857a61cdcce42b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/c53e461f50129ba74b857a61cdcce42b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/3d087e50e90b4007aab8e0e2a5cf3ccb/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/3d087e50e90b4007aab8e0e2a5cf3ccb/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/19a591e42ef388ee2a6958a4376b9887/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/19a591e42ef388ee2a6958a4376b9887/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/e7f5022df7cdb080cf648e4153a96532/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/e7f5022df7cdb080cf648e4153a96532/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/205e394810f8fbbe8313ac4e1e81e681/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/205e394810f8fbbe8313ac4e1e81e681/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-16.0.8.aar/73c7b3600342385d08f6dcfeeb75f667/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-16.0.8.aar/73c7b3600342385d08f6dcfeeb75f667/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/9f024b14574b72fe6b167c7649f5cb41/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/9f024b14574b72fe6b167c7649f5cb41/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03fd9ebec6f9b9d3d91aeb93a349b988/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03fd9ebec6f9b9d3d91aeb93a349b988/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/72a7aab8e792479cc36a7699324d2dba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/72a7aab8e792479cc36a7699324d2dba/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.0.aar/f9e1eb1db5cc7dbbb8d04cc92894a534/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.0.aar/f9e1eb1db5cc7dbbb8d04cc92894a534/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-17.0.0.aar/ca6fc22d1dff9d58d7b590733165cd1f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-places-placereport-17.0.0.aar/ca6fc22d1dff9d58d7b590733165cd1f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/b328387687d6d9197e5c68a917d580bc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/b328387687d6d9197e5c68a917d580bc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/8009254fae2a110c0f5d896a97703e38/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/8009254fae2a110c0f5d896a97703e38/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/fec009b5027da308c384e2248fb5bac1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/fec009b5027da308c384e2248fb5bac1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/44d66baeaca05b7f981cb64f9253aa1a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/44d66baeaca05b7f981cb64f9253aa1a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/8b45663870372cccf5627ce5657f195d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/8b45663870372cccf5627ce5657f195d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/0dd4a89e77d2c6c075a88888d1d196f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/0dd4a89e77d2c6c075a88888d1d196f8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/f909469fd872e6ce69af32355bd68dd7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/f909469fd872e6ce69af32355bd68dd7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/4162c86568fd3395ec62fc1507b15395/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/4162c86568fd3395ec62fc1507b15395/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/6d7958155d4b73e293e0709c8af9f0e5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/6d7958155d4b73e293e0709c8af9f0e5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/3995eb459673f3677578326b4e9c5f81/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/activity-1.0.0.aar/3995eb459673f3677578326b4e9c5f81/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/a87e0cfda842e9d5fbb034c00621e250/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/a87e0cfda842e9d5fbb034c00621e250/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/588c1d3dea618ccab815c31cc55c867d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/588c1d3dea618ccab815c31cc55c867d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/6914e05e915a6b4a57fcd32d1ebe086b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/6914e05e915a6b4a57fcd32d1ebe086b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/5774b2c0d10507cd81e7e5d77b3d7a33/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/5774b2c0d10507cd81e7e5d77b3d7a33/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/8a2016e52f59926e53325198cb5f9348/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/8a2016e52f59926e53325198cb5f9348/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/74f6ffdb72fdf08b10deb91b084d6c6e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/74f6ffdb72fdf08b10deb91b084d6c6e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/65d02fb7a2cd674ef9898ab5b0084016/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.1.0.aar/65d02fb7a2cd674ef9898ab5b0084016/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/ac7e8848ecfd38744c0e9ef310de9f80/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/student/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.1.0.aar/ac7e8848ecfd38744c0e9ef310de9f80/AndroidManifest.xml:20:5-44
+INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/student/Downloads/RestaurantlocatorApp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.4] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.4.aar/228d9c0ffe74418cbdbd87c8aef5131b/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:16.0.4] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.4.aar/228d9c0ffe74418cbdbd87c8aef5131b/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/9f024b14574b72fe6b167c7649f5cb41/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/9f024b14574b72fe6b167c7649f5cb41/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-maps-17.0.0.aar/8f7410d8d27689514d8add6bdf7f6dc8/AndroidManifest.xml:34:13-50
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/9f024b14574b72fe6b167c7649f5cb41/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-16.0.8.aar/9f024b14574b72fe6b167c7649f5cb41/AndroidManifest.xml:27:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:27:22-65
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:30:9-34:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:31:13-78
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:36:9-39:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:37:13-77
+service#com.google.android.gms.analytics.AnalyticsJobService
+ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:40:9-44:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:42:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:43:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:44:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:16.0.8] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-analytics-16.0.8.aar/6c04586f5375593e9e758194ab0d9f1b/AndroidManifest.xml:41:13-80
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03fd9ebec6f9b9d3d91aeb93a349b988/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03fd9ebec6f9b9d3d91aeb93a349b988/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03fd9ebec6f9b9d3d91aeb93a349b988/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/03fd9ebec6f9b9d3d91aeb93a349b988/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/72a7aab8e792479cc36a7699324d2dba/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/72a7aab8e792479cc36a7699324d2dba/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/72a7aab8e792479cc36a7699324d2dba/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/72a7aab8e792479cc36a7699324d2dba/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/student/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/72a7aab8e792479cc36a7699324d2dba/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/44d66baeaca05b7f981cb64f9253aa1a/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/44d66baeaca05b7f981cb64f9253aa1a/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/student/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/44d66baeaca05b7f981cb64f9253aa1a/AndroidManifest.xml:24:13-58

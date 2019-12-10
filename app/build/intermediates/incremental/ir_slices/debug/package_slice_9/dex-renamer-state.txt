@@ -1,0 +1,4 @@
+#Tue Dec 10 11:53:57 IST 2019
+base.0=/home/student/Downloads/RestaurantlocatorApp/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex
